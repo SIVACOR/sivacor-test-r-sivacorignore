@@ -10,6 +10,7 @@ After the run, [`.sivacorignore`](.sivacorignore) removes
 
 -  `data/raw/` (which includes the original penguin data)
 - all `*.tmp` files which might still contain penguin data.
+- `images/` (pictures of the confidential penguins).
 
 ## Steps
 
