@@ -2,7 +2,6 @@
 
 ![Palmer penguins](images/lter_penguins.png)
 
-*Artwork by @allison_horst, from [palmerpenguins](https://github.com/allisonhorst/palmerpenguins).*
 
 Assume that the `penguins` are a super-confidential biological dataset.
 
@@ -28,3 +27,8 @@ output/
   ...
 .sivacorignore
 ```
+
+## Credits
+
+
+*Artwork by @allison_horst, from [palmerpenguins](https://github.com/allisonhorst/palmerpenguins).*
