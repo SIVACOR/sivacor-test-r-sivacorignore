@@ -1,10 +1,30 @@
 # Test file for R with `.sivacorignore`
 
-Combines [sivacor-test-r](https://github.com/SIVACOR/sivacor-test-r) with the
-[`.sivacorignore` tutorial](https://github.com/SIVACOR/documentation/blob/main/docs/tutorial-removing-data.md).
+![Palmer penguins](images/lter_penguins.png)
+
+*Artwork by @allison_horst, from [palmerpenguins](https://github.com/allisonhorst/palmerpenguins).*
+
+Assume that the `penguins` are a super-confidential biological dataset.
+
+
+After the run, [`.sivacorignore`](.sivacorignore) removes
+
+-  `data/raw/` (which includes the original penguin data)
+- all `*.tmp` files which might still contain penguin data.
+
+## Steps
 
 - set up with R 4.3.1 (`rocker/r-ver:4.3.1`) and `renv`
 - main file: `main.R`
 - import [`sivacorignore-workflow.yaml`](sivacorignore-workflow.yaml) into the submission form
 
-After the run, [`.sivacorignore`](.sivacorignore) removes `data/raw/` and all `*.tmp` files from the replication package.
+## Expected output
+
+```
+code/
+  main.R
+output/
+  figure.png
+  ...
+.sivacorignore
+```
