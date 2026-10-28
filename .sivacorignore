@@ -1,0 +1,5 @@
+# Removed from the replication package after the run
+# (same pattern rules as .gitignore)
+data/raw/
+data/api/
+*.tmp

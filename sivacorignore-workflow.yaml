@@ -1,0 +1,23 @@
+# SIVACOR workflow definition
+#
+# Import this file at the top of the submission form
+# (https://submit.sivacor.org/) to fill in the steps.
+#
+# image_name and image_tag must be copied verbatim from the list
+# that fills the form's dropdowns:
+#   https://girder.sivacor.org/api/v1/sivacor/image_tags
+#
+# Secrets are never exported or stored in the repository.
+# Replace the value below with your own FRED API key
+# (https://fred.stlouisfed.org/docs/api/api_key.html),
+# or enter it directly in the form.
+env_secrets:
+  - key: FRED_APIKEY
+    value: "replace-me-with-the-real-apikey"
+
+stages:
+  - image_name: "rocker/r-ver"
+    image_tag: "4.3.1"
+    main_file: "main.R"
+    # network access is needed for renv and the FRED API
+    network_isolation: false
