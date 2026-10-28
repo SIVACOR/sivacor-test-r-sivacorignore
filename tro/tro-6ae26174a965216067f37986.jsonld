@@ -1,0 +1,2991 @@
+{
+  "@context": {
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+    "schema": "https://schema.org/",
+    "sivacor": "https://vocabulary.sivacor.org/0.1/",
+    "trov": "https://w3id.org/trace/trov/0.1#"
+  },
+  "@graph": [
+    {
+      "@id": "tro",
+      "@type": [
+        "trov:TransparentResearchObject",
+        "schema:CreativeWork"
+      ],
+      "schema:creator": {
+        "@type": "schema:Organization",
+        "schema:name": "SIVACOR/tro_utils"
+      },
+      "schema:dateCreated": "2026-10-28T21:09:48.687368+00:00",
+      "schema:description": "SIVACOR Run",
+      "schema:name": "savage-order",
+      "trov:createdWith": {
+        "@type": "schema:SoftwareApplication",
+        "schema:name": "tro-utils",
+        "schema:softwareVersion": "0.5.2"
+      },
+      "trov:hasArrangement": [
+        {
+          "@id": "arrangement/0",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "Before executing workflow",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/0/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.Rprofile"
+            },
+            {
+              "@id": "arrangement/0/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/0/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.sivacorignore"
+            },
+            {
+              "@id": "arrangement/0/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/README.md"
+            },
+            {
+              "@id": "arrangement/0/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/data/raw/lter_penguins.png"
+            },
+            {
+              "@id": "arrangement/0/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/data/raw/penguins.csv"
+            },
+            {
+              "@id": "arrangement/0/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/linux-system-info.sh"
+            },
+            {
+              "@id": "arrangement/0/location/7",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/7"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/main.R"
+            },
+            {
+              "@id": "arrangement/0/location/8",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/8"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv.lock"
+            },
+            {
+              "@id": "arrangement/0/location/9",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/9"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/.gitignore"
+            },
+            {
+              "@id": "arrangement/0/location/10",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/10"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/activate.R"
+            },
+            {
+              "@id": "arrangement/0/location/11",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/11"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/settings.json"
+            },
+            {
+              "@id": "arrangement/0/location/12",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/12"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/sivacorignore-workflow.yaml"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/1",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After executing workflow step 1",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/1/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.Rprofile"
+            },
+            {
+              "@id": "arrangement/1/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/1/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.sivacorignore"
+            },
+            {
+              "@id": "arrangement/1/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/README.md"
+            },
+            {
+              "@id": "arrangement/1/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/4"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/data/raw/lter_penguins.png"
+            },
+            {
+              "@id": "arrangement/1/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/5"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/data/raw/penguins.csv"
+            },
+            {
+              "@id": "arrangement/1/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/linux-system-info.sh"
+            },
+            {
+              "@id": "arrangement/1/location/7",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/7"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/main.R"
+            },
+            {
+              "@id": "arrangement/1/location/8",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/13"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv.lock"
+            },
+            {
+              "@id": "arrangement/1/location/9",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/9"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/.gitignore"
+            },
+            {
+              "@id": "arrangement/1/location/10",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/10"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/activate.R"
+            },
+            {
+              "@id": "arrangement/1/location/11",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/R6"
+            },
+            {
+              "@id": "arrangement/1/location/12",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/RColorBrewer"
+            },
+            {
+              "@id": "arrangement/1/location/13",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/cli"
+            },
+            {
+              "@id": "arrangement/1/location/14",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/colorspace"
+            },
+            {
+              "@id": "arrangement/1/location/15",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/dplyr"
+            },
+            {
+              "@id": "arrangement/1/location/16",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/evaluate"
+            },
+            {
+              "@id": "arrangement/1/location/17",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/fansi"
+            },
+            {
+              "@id": "arrangement/1/location/18",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/farver"
+            },
+            {
+              "@id": "arrangement/1/location/19",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/generics"
+            },
+            {
+              "@id": "arrangement/1/location/20",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/ggplot2"
+            },
+            {
+              "@id": "arrangement/1/location/21",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/glue"
+            },
+            {
+              "@id": "arrangement/1/location/22",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/gtable"
+            },
+            {
+              "@id": "arrangement/1/location/23",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/highr"
+            },
+            {
+              "@id": "arrangement/1/location/24",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/isoband"
+            },
+            {
+              "@id": "arrangement/1/location/25",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/knitr"
+            },
+            {
+              "@id": "arrangement/1/location/26",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/labeling"
+            },
+            {
+              "@id": "arrangement/1/location/27",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/lifecycle"
+            },
+            {
+              "@id": "arrangement/1/location/28",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/magrittr"
+            },
+            {
+              "@id": "arrangement/1/location/29",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/munsell"
+            },
+            {
+              "@id": "arrangement/1/location/30",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/palmerpenguins"
+            },
+            {
+              "@id": "arrangement/1/location/31",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/pillar"
+            },
+            {
+              "@id": "arrangement/1/location/32",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/pkgconfig"
+            },
+            {
+              "@id": "arrangement/1/location/33",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/15"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/DESCRIPTION"
+            },
+            {
+              "@id": "arrangement/1/location/34",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/16"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/INDEX"
+            },
+            {
+              "@id": "arrangement/1/location/35",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/17"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/LICENSE"
+            },
+            {
+              "@id": "arrangement/1/location/36",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/18"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/Rd.rds"
+            },
+            {
+              "@id": "arrangement/1/location/37",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/19"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/features.rds"
+            },
+            {
+              "@id": "arrangement/1/location/38",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/20"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/hsearch.rds"
+            },
+            {
+              "@id": "arrangement/1/location/39",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/21"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/links.rds"
+            },
+            {
+              "@id": "arrangement/1/location/40",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/22"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/nsInfo.rds"
+            },
+            {
+              "@id": "arrangement/1/location/41",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/23"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/package.rds"
+            },
+            {
+              "@id": "arrangement/1/location/42",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/24"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/vignette.rds"
+            },
+            {
+              "@id": "arrangement/1/location/43",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/25"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/NAMESPACE"
+            },
+            {
+              "@id": "arrangement/1/location/44",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/26"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/NEWS.md"
+            },
+            {
+              "@id": "arrangement/1/location/45",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/27"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/R/renv"
+            },
+            {
+              "@id": "arrangement/1/location/46",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/28"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/R/renv.rdb"
+            },
+            {
+              "@id": "arrangement/1/location/47",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/29"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/R/renv.rdx"
+            },
+            {
+              "@id": "arrangement/1/location/48",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/30"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/bin/renv"
+            },
+            {
+              "@id": "arrangement/1/location/49",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/31"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/bin/renv.bat"
+            },
+            {
+              "@id": "arrangement/1/location/50",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/32"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/config.yml"
+            },
+            {
+              "@id": "arrangement/1/location/51",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/ci.R"
+            },
+            {
+              "@id": "arrangement/1/location/52",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/34"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/ci.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/53",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/35"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/ci.html"
+            },
+            {
+              "@id": "arrangement/1/location/54",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/docker.R"
+            },
+            {
+              "@id": "arrangement/1/location/55",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/36"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/docker.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/56",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/37"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/docker.html"
+            },
+            {
+              "@id": "arrangement/1/location/57",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/38"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/faq.R"
+            },
+            {
+              "@id": "arrangement/1/location/58",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/39"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/faq.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/59",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/40"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/faq.html"
+            },
+            {
+              "@id": "arrangement/1/location/60",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/41"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/index.html"
+            },
+            {
+              "@id": "arrangement/1/location/61",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/42"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-install.R"
+            },
+            {
+              "@id": "arrangement/1/location/62",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/43"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-install.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/63",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/44"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-install.html"
+            },
+            {
+              "@id": "arrangement/1/location/64",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/45"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-sources.R"
+            },
+            {
+              "@id": "arrangement/1/location/65",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/46"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-sources.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/66",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/47"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-sources.html"
+            },
+            {
+              "@id": "arrangement/1/location/67",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/48"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packages.R"
+            },
+            {
+              "@id": "arrangement/1/location/68",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/49"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packages.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/69",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/50"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packages.html"
+            },
+            {
+              "@id": "arrangement/1/location/70",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/51"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packrat.R"
+            },
+            {
+              "@id": "arrangement/1/location/71",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/52"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packrat.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/72",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/53"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packrat.html"
+            },
+            {
+              "@id": "arrangement/1/location/73",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/54"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/profiles.R"
+            },
+            {
+              "@id": "arrangement/1/location/74",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/55"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/profiles.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/75",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/56"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/profiles.html"
+            },
+            {
+              "@id": "arrangement/1/location/76",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/python.R"
+            },
+            {
+              "@id": "arrangement/1/location/77",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/57"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/python.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/78",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/58"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/python.html"
+            },
+            {
+              "@id": "arrangement/1/location/79",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/59"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/renv.R"
+            },
+            {
+              "@id": "arrangement/1/location/80",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/60"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/renv.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/81",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/61"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/renv.html"
+            },
+            {
+              "@id": "arrangement/1/location/82",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/rsconnect.R"
+            },
+            {
+              "@id": "arrangement/1/location/83",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/62"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/rsconnect.Rmd"
+            },
+            {
+              "@id": "arrangement/1/location/84",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/63"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/rsconnect.html"
+            },
+            {
+              "@id": "arrangement/1/location/85",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/64"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/AnIndex"
+            },
+            {
+              "@id": "arrangement/1/location/86",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/65"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/aliases.rds"
+            },
+            {
+              "@id": "arrangement/1/location/87",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/66"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/figures/logo.svg"
+            },
+            {
+              "@id": "arrangement/1/location/88",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/67"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/paths.rds"
+            },
+            {
+              "@id": "arrangement/1/location/89",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/68"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/renv.rdb"
+            },
+            {
+              "@id": "arrangement/1/location/90",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/69"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/renv.rdx"
+            },
+            {
+              "@id": "arrangement/1/location/91",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/70"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/html/00Index.html"
+            },
+            {
+              "@id": "arrangement/1/location/92",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/71"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/html/R.css"
+            },
+            {
+              "@id": "arrangement/1/location/93",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/72"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/PACKAGES"
+            },
+            {
+              "@id": "arrangement/1/location/94",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/73"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/PACKAGES.gz"
+            },
+            {
+              "@id": "arrangement/1/location/95",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/74"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/PACKAGES.rds"
+            },
+            {
+              "@id": "arrangement/1/location/96",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/75"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/renv_1.0.3.tar.gz"
+            },
+            {
+              "@id": "arrangement/1/location/97",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/76"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/WELCOME"
+            },
+            {
+              "@id": "arrangement/1/location/98",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/77"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/activate.R"
+            },
+            {
+              "@id": "arrangement/1/location/99",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/78"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/scripts-git-askpass.cmd"
+            },
+            {
+              "@id": "arrangement/1/location/100",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/79"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/scripts-git-askpass.sh"
+            },
+            {
+              "@id": "arrangement/1/location/101",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/80"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/vendor/renv.R"
+            },
+            {
+              "@id": "arrangement/1/location/102",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/81"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/watchdog-process.R"
+            },
+            {
+              "@id": "arrangement/1/location/103",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/82"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/rstudio/addins.dcf"
+            },
+            {
+              "@id": "arrangement/1/location/104",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/rlang"
+            },
+            {
+              "@id": "arrangement/1/location/105",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/scales"
+            },
+            {
+              "@id": "arrangement/1/location/106",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/tibble"
+            },
+            {
+              "@id": "arrangement/1/location/107",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/tidyselect"
+            },
+            {
+              "@id": "arrangement/1/location/108",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/utf8"
+            },
+            {
+              "@id": "arrangement/1/location/109",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/vctrs"
+            },
+            {
+              "@id": "arrangement/1/location/110",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/viridisLite"
+            },
+            {
+              "@id": "arrangement/1/location/111",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/withr"
+            },
+            {
+              "@id": "arrangement/1/location/112",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/xfun"
+            },
+            {
+              "@id": "arrangement/1/location/113",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/yaml"
+            },
+            {
+              "@id": "arrangement/1/location/114",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/11"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/settings.json"
+            },
+            {
+              "@id": "arrangement/1/location/115",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/83"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_bill_length_histogram.pdf"
+            },
+            {
+              "@id": "arrangement/1/location/116",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/84"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_clean.tmp"
+            },
+            {
+              "@id": "arrangement/1/location/117",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/85"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_grouped_table.tex"
+            },
+            {
+              "@id": "arrangement/1/location/118",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/86"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_summary_table.tex"
+            },
+            {
+              "@id": "arrangement/1/location/119",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/12"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/sivacorignore-workflow.yaml"
+            }
+          ]
+        },
+        {
+          "@id": "arrangement/2",
+          "@type": "trov:ArtifactArrangement",
+          "rdfs:comment": "After executing workflow step 2",
+          "trov:hasArtifactLocation": [
+            {
+              "@id": "arrangement/2/location/0",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/0"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.Rprofile"
+            },
+            {
+              "@id": "arrangement/2/location/1",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/1"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.gitignore"
+            },
+            {
+              "@id": "arrangement/2/location/2",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/2"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/.sivacorignore"
+            },
+            {
+              "@id": "arrangement/2/location/3",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/3"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/README.md"
+            },
+            {
+              "@id": "arrangement/2/location/4",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/6"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/linux-system-info.sh"
+            },
+            {
+              "@id": "arrangement/2/location/5",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/7"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/main.R"
+            },
+            {
+              "@id": "arrangement/2/location/6",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/13"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv.lock"
+            },
+            {
+              "@id": "arrangement/2/location/7",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/9"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/.gitignore"
+            },
+            {
+              "@id": "arrangement/2/location/8",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/10"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/activate.R"
+            },
+            {
+              "@id": "arrangement/2/location/9",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/R6"
+            },
+            {
+              "@id": "arrangement/2/location/10",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/RColorBrewer"
+            },
+            {
+              "@id": "arrangement/2/location/11",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/cli"
+            },
+            {
+              "@id": "arrangement/2/location/12",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/colorspace"
+            },
+            {
+              "@id": "arrangement/2/location/13",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/dplyr"
+            },
+            {
+              "@id": "arrangement/2/location/14",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/evaluate"
+            },
+            {
+              "@id": "arrangement/2/location/15",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/fansi"
+            },
+            {
+              "@id": "arrangement/2/location/16",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/farver"
+            },
+            {
+              "@id": "arrangement/2/location/17",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/generics"
+            },
+            {
+              "@id": "arrangement/2/location/18",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/ggplot2"
+            },
+            {
+              "@id": "arrangement/2/location/19",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/glue"
+            },
+            {
+              "@id": "arrangement/2/location/20",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/gtable"
+            },
+            {
+              "@id": "arrangement/2/location/21",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/highr"
+            },
+            {
+              "@id": "arrangement/2/location/22",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/isoband"
+            },
+            {
+              "@id": "arrangement/2/location/23",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/knitr"
+            },
+            {
+              "@id": "arrangement/2/location/24",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/labeling"
+            },
+            {
+              "@id": "arrangement/2/location/25",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/lifecycle"
+            },
+            {
+              "@id": "arrangement/2/location/26",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/magrittr"
+            },
+            {
+              "@id": "arrangement/2/location/27",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/munsell"
+            },
+            {
+              "@id": "arrangement/2/location/28",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/palmerpenguins"
+            },
+            {
+              "@id": "arrangement/2/location/29",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/pillar"
+            },
+            {
+              "@id": "arrangement/2/location/30",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/pkgconfig"
+            },
+            {
+              "@id": "arrangement/2/location/31",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/15"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/DESCRIPTION"
+            },
+            {
+              "@id": "arrangement/2/location/32",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/16"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/INDEX"
+            },
+            {
+              "@id": "arrangement/2/location/33",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/17"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/LICENSE"
+            },
+            {
+              "@id": "arrangement/2/location/34",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/18"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/Rd.rds"
+            },
+            {
+              "@id": "arrangement/2/location/35",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/19"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/features.rds"
+            },
+            {
+              "@id": "arrangement/2/location/36",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/20"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/hsearch.rds"
+            },
+            {
+              "@id": "arrangement/2/location/37",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/21"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/links.rds"
+            },
+            {
+              "@id": "arrangement/2/location/38",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/22"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/nsInfo.rds"
+            },
+            {
+              "@id": "arrangement/2/location/39",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/23"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/package.rds"
+            },
+            {
+              "@id": "arrangement/2/location/40",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/24"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/Meta/vignette.rds"
+            },
+            {
+              "@id": "arrangement/2/location/41",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/25"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/NAMESPACE"
+            },
+            {
+              "@id": "arrangement/2/location/42",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/26"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/NEWS.md"
+            },
+            {
+              "@id": "arrangement/2/location/43",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/27"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/R/renv"
+            },
+            {
+              "@id": "arrangement/2/location/44",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/28"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/R/renv.rdb"
+            },
+            {
+              "@id": "arrangement/2/location/45",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/29"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/R/renv.rdx"
+            },
+            {
+              "@id": "arrangement/2/location/46",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/30"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/bin/renv"
+            },
+            {
+              "@id": "arrangement/2/location/47",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/31"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/bin/renv.bat"
+            },
+            {
+              "@id": "arrangement/2/location/48",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/32"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/config.yml"
+            },
+            {
+              "@id": "arrangement/2/location/49",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/ci.R"
+            },
+            {
+              "@id": "arrangement/2/location/50",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/34"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/ci.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/51",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/35"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/ci.html"
+            },
+            {
+              "@id": "arrangement/2/location/52",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/docker.R"
+            },
+            {
+              "@id": "arrangement/2/location/53",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/36"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/docker.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/54",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/37"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/docker.html"
+            },
+            {
+              "@id": "arrangement/2/location/55",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/38"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/faq.R"
+            },
+            {
+              "@id": "arrangement/2/location/56",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/39"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/faq.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/57",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/40"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/faq.html"
+            },
+            {
+              "@id": "arrangement/2/location/58",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/41"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/index.html"
+            },
+            {
+              "@id": "arrangement/2/location/59",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/42"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-install.R"
+            },
+            {
+              "@id": "arrangement/2/location/60",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/43"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-install.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/61",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/44"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-install.html"
+            },
+            {
+              "@id": "arrangement/2/location/62",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/45"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-sources.R"
+            },
+            {
+              "@id": "arrangement/2/location/63",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/46"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-sources.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/64",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/47"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/package-sources.html"
+            },
+            {
+              "@id": "arrangement/2/location/65",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/48"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packages.R"
+            },
+            {
+              "@id": "arrangement/2/location/66",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/49"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packages.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/67",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/50"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packages.html"
+            },
+            {
+              "@id": "arrangement/2/location/68",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/51"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packrat.R"
+            },
+            {
+              "@id": "arrangement/2/location/69",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/52"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packrat.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/70",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/53"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/packrat.html"
+            },
+            {
+              "@id": "arrangement/2/location/71",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/54"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/profiles.R"
+            },
+            {
+              "@id": "arrangement/2/location/72",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/55"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/profiles.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/73",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/56"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/profiles.html"
+            },
+            {
+              "@id": "arrangement/2/location/74",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/python.R"
+            },
+            {
+              "@id": "arrangement/2/location/75",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/57"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/python.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/76",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/58"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/python.html"
+            },
+            {
+              "@id": "arrangement/2/location/77",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/59"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/renv.R"
+            },
+            {
+              "@id": "arrangement/2/location/78",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/60"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/renv.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/79",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/61"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/renv.html"
+            },
+            {
+              "@id": "arrangement/2/location/80",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/33"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/rsconnect.R"
+            },
+            {
+              "@id": "arrangement/2/location/81",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/62"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/rsconnect.Rmd"
+            },
+            {
+              "@id": "arrangement/2/location/82",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/63"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/doc/rsconnect.html"
+            },
+            {
+              "@id": "arrangement/2/location/83",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/64"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/AnIndex"
+            },
+            {
+              "@id": "arrangement/2/location/84",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/65"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/aliases.rds"
+            },
+            {
+              "@id": "arrangement/2/location/85",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/66"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/figures/logo.svg"
+            },
+            {
+              "@id": "arrangement/2/location/86",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/67"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/paths.rds"
+            },
+            {
+              "@id": "arrangement/2/location/87",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/68"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/renv.rdb"
+            },
+            {
+              "@id": "arrangement/2/location/88",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/69"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/help/renv.rdx"
+            },
+            {
+              "@id": "arrangement/2/location/89",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/70"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/html/00Index.html"
+            },
+            {
+              "@id": "arrangement/2/location/90",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/71"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/html/R.css"
+            },
+            {
+              "@id": "arrangement/2/location/91",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/72"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/PACKAGES"
+            },
+            {
+              "@id": "arrangement/2/location/92",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/73"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/PACKAGES.gz"
+            },
+            {
+              "@id": "arrangement/2/location/93",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/74"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/PACKAGES.rds"
+            },
+            {
+              "@id": "arrangement/2/location/94",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/75"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/repos/src/contrib/renv_1.0.3.tar.gz"
+            },
+            {
+              "@id": "arrangement/2/location/95",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/76"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/WELCOME"
+            },
+            {
+              "@id": "arrangement/2/location/96",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/77"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/activate.R"
+            },
+            {
+              "@id": "arrangement/2/location/97",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/78"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/scripts-git-askpass.cmd"
+            },
+            {
+              "@id": "arrangement/2/location/98",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/79"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/scripts-git-askpass.sh"
+            },
+            {
+              "@id": "arrangement/2/location/99",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/80"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/vendor/renv.R"
+            },
+            {
+              "@id": "arrangement/2/location/100",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/81"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/resources/watchdog-process.R"
+            },
+            {
+              "@id": "arrangement/2/location/101",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/82"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/renv/rstudio/addins.dcf"
+            },
+            {
+              "@id": "arrangement/2/location/102",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/rlang"
+            },
+            {
+              "@id": "arrangement/2/location/103",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/scales"
+            },
+            {
+              "@id": "arrangement/2/location/104",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/tibble"
+            },
+            {
+              "@id": "arrangement/2/location/105",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/tidyselect"
+            },
+            {
+              "@id": "arrangement/2/location/106",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/utf8"
+            },
+            {
+              "@id": "arrangement/2/location/107",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/vctrs"
+            },
+            {
+              "@id": "arrangement/2/location/108",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/viridisLite"
+            },
+            {
+              "@id": "arrangement/2/location/109",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/withr"
+            },
+            {
+              "@id": "arrangement/2/location/110",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/xfun"
+            },
+            {
+              "@id": "arrangement/2/location/111",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/14"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/library/R-4.3/x86_64-pc-linux-gnu/yaml"
+            },
+            {
+              "@id": "arrangement/2/location/112",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/11"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/renv/settings.json"
+            },
+            {
+              "@id": "arrangement/2/location/113",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/83"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_bill_length_histogram.pdf"
+            },
+            {
+              "@id": "arrangement/2/location/114",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/85"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_grouped_table.tex"
+            },
+            {
+              "@id": "arrangement/2/location/115",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/86"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/results/penguins_summary_table.tex"
+            },
+            {
+              "@id": "arrangement/2/location/116",
+              "@type": "trov:ArtifactLocation",
+              "trov:artifact": {
+                "@id": "composition/1/artifact/12"
+              },
+              "trov:path": "sivacor-test-r-sivacorignore-main/sivacorignore-workflow.yaml"
+            }
+          ]
+        }
+      ],
+      "trov:hasAttribute": [],
+      "trov:hasComposition": {
+        "@id": "composition/1",
+        "@type": "trov:ArtifactComposition",
+        "trov:hasArtifact": [
+          {
+            "@id": "composition/1/artifact/0",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3f9d62fc3f1bf5888a09816101b705f9844ef4cd44ee5ad157f4168dac4af4d4"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/1",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "cd626bd30aa3875cc7c01d50050e4f88e84d4691457209871f27494ffd5f4ab4"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/2",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ce488773ee464fa7036dc43094b813160edd3bb2be3474b43d2ff59a6057501e"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/3",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "83b4e4a199d8670e79b5b004cc004f90fb7e6414563ba67e87f7f9e8aefe74b0"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/4",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "09b8d656b7e432aff84e961af5a3bbb46cf0291ee08f43dd42224dcf2abb7245"
+            },
+            "trov:mimeType": "image/png"
+          },
+          {
+            "@id": "composition/1/artifact/5",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f204db2c753b0937caac3cb35258562c14f073e4bbc76be24b4c51ce22767a93"
+            },
+            "trov:mimeType": "text/csv"
+          },
+          {
+            "@id": "composition/1/artifact/6",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f3a716bcc34b98addf6969835ab02935995485790e847970abd92059255dc98e"
+            },
+            "trov:mimeType": "text/x-shellscript"
+          },
+          {
+            "@id": "composition/1/artifact/7",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2baec7ca16a7ac3159ec6a96907c3c894c1566fb15299fad4d1abda5b65f9177"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/8",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e81512223bc0f5cd245531a7b2199581ce004f64d5cc0ccbbfdb072aca40511b"
+            },
+            "trov:mimeType": "application/json"
+          },
+          {
+            "@id": "composition/1/artifact/9",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2c31e978189a98022566bd6084936f5608222b2bb9230b8d189b5a1c97a2c2da"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/10",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "b77edbaf015b6a77f22e6ff2d831bbc9a43d7b3173ebf6546cc2256f1845478e"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/11",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "965ebd30972d4dee75c91a2ba32242c64d5d0a4c6f1d386f6c73b3979ee4dc19"
+            },
+            "trov:mimeType": "application/json"
+          },
+          {
+            "@id": "composition/1/artifact/12",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7a2a68cd22c996395bcf95ca416337281340bfb38a3814f4d0229095c1198d5f"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/13",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "af1adb7276bf4caedee5f2400236df8c598882e8c120efddb6cd57e5f2076d91"
+            },
+            "trov:mimeType": "application/json"
+          },
+          {
+            "@id": "composition/1/artifact/14",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "none",
+              "trov:hashValue": ""
+            },
+            "trov:mimeType": "inode/symlink"
+          },
+          {
+            "@id": "composition/1/artifact/15",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "37063bbf7339dcbf575a6b49f559c159d8d5063f3d0072cc486eb1c24a185b1c"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/16",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d64437bde901b1ac95e7b2af6e29da9508f63890c0405e31f0cb2ae1ae890d26"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/17",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "8841acac0442c5454cd9e9dbde2ccf355c16aaa542c728e634fe67cf351c98e3"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/18",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f90f28672f510dcb320a56034eb4031c749dee07059ebe60989385f61dbc16d1"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/19",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7b3f95a83e94a785d087d4d4e95e3714ebae7b437b23384ca5227d56161f7600"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/20",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "527eb9e58a49935259680354c596b3e1f83fbb9c966ee64ba714e095f58d940a"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/21",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "689ecac91acd12d6d5c58a128b71fad30efbeb1b70618bfc13dba20c1d927a1b"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/22",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7cff36b961a247bde7603d998e21487fdc4c250d9b350914eab9305e783fea91"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/23",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2672d98689c9d8881ead1381e4d370fef46f8afea7f015e70b18e9b374fc5b3b"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/24",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "52067c7063a8f90156ae4b22bc58aed93a0f39303c1680d8d934af46e295ce1c"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/25",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "7e0eddf95731127497c7f54d190e3205847d75b00baba1bc45aa5a4cd8c0b700"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/26",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "4338973d5c14228630ae8bbb2895f5e24915dbbde79bd330736bb84d7246e268"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/27",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "570ca456b280cdeb201ef5ebdf22dc8f80092e2c0c68e33c7f73340e420f3759"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/28",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "b611b5cab79171126cceffee422ff9ca4ef4752d275b4f2db8f52a3586581255"
+            },
+            "trov:mimeType": "application/octet-stream"
+          },
+          {
+            "@id": "composition/1/artifact/29",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f0111014af721657655562db30ef4fded48a3fb7248b21076dfdff64a6dcfbec"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/30",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2a9569bb8754d78cbba05544ec3f742010f1d2637feb96517ea793c3447c378c"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/31",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f7df9b8f9e993e546b5588e917a6c72a5f2d6d46f91f87b2b14d261925895311"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/32",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "17f2e9f63fda66160040fef5dc0d8cb7492467b092672ab7977324ffbf578e6b"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/33",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "aa4815a0e40b4fcda0ff81b151bd8fc410ac3fb26580519cabd8bc32a8c326b2"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/34",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e62f6db691fd3827d89602647f721d43e9581e79e1f8d5980ab5c936b5dbdece"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/35",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "07f93ba81b2989c00832e29eae1d23e5ce8373fa06366b2822079d58fae24300"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/36",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "1c4d94cc3b9f79b15c1cf0f5ad47e360abe8a1b7f514d063e596a391f9327c5d"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/37",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ae0f33e641c6af150d777523a7a01d616ad92109ec044077f3a2b94bffbbd19f"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/38",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "bef3844fa96a839dc5a54c91b06482b11ad194951d3ff0089f3ddaf75a36d22c"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/39",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "420a4537907a2a66454dcf7f62665fe8f778bbfb5b180606d5ebb90458435295"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/40",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "88f2f8ac1f9462e874fb4f66be5f5d2d9e7b09fcc0d3cbacf5e6a35a0ed0c14b"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/41",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ddaac144003c3ccb7fb43a776679b0115deff350e3d71db34a37ca74728db977"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/42",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6332d199079162b8e7d131f6d377f88a1f39dde41997b6c9e12f568da4bcfa3c"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/43",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "643a00485de4432eabc83accaff828f0edc8eb977c4067b54d2d660cefdd254c"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/44",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "1b8ff0a7a90ea1d41c2524165e27f47ce4832667dc70d25d902a7ee5281ddd10"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/45",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2d1166153954b4e48425491df2b9e801110c5c25a5d571367772dd58a94b73f4"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/46",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "5c08919a4dc0bbdc6aea240a31fd6f7607a98f1f8aa7e7d1dee3bd26fd2448d5"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/47",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "c4472474c6690bf09094770fc41d301339c56aa0ba5ce94dfe0a46b74603411d"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/48",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "2d048c12d933ae2f8a4abd648c2c497b9196900b95d8f8b726470480ebfcfd44"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/49",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "41f0532b6aec5824340b00ac6325e4ee075edb7b3edd12831c2a5605ad4b73dd"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/50",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "45c8d56cd1582119fe82619f39496b719a0bda64c86d673fe92548cea1b9a388"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/51",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f9323117f3677492e2f97763f023fa13ba358ce4479ea70140195a6e65ecce6f"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/52",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "37cc7930941feeb872c7fbf80d9370689644afd32a49580404a87fb37cebd7e8"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/53",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "76b3ccf4a6370c934138ebdb351dd2799182d10b1b498136fe2be4243b6a7548"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/54",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "206b932b4d3210fc65478b5d7d75ef7d12475d18be0c037f43d4e05e40e2de6a"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/55",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "27ea06586f4177701527a0f7fc529da2d224ced973c0a6ae9ed81d4f4abcb94f"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/56",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "1dae2a474fa22faeabdaed431ac0ccf526a1810c449c1b99ccf3d5e7b8cc48b3"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/57",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e342b4d0e8a368c9c373d345b74b9a6aca0814286985b5c33b9c98869ab2070c"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/58",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d6aafe3aa4d8f16ca031ef87e077670b9cca4e76bcd365683273ae63196ad8a6"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/59",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "1d44072eb7052e677c8f77bb318f3fa62a6e817ff4282a03803c5a1898847ba8"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/60",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "6a5419a48d0a8a051605e9831da55398794a2a706cd057607316151026f6d4c1"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/61",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "61e9217431b965b45d0727a09f22ca166899e17c0a55075c87bf3b7cd378d995"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/62",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "88878fe368330e58f5b7cdfe5e0a75a663b8ef83ec072debefd279d6e498a028"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/63",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "3a14ad7872408f293d4fafeb973d54eed0e43c7af3bbbfb8c3cd7e7fc77101ef"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/64",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "5461d3e7dac1e8d227ce0ed6892298947bce6a6c94be07d40e92b6c99d1693d2"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/65",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "238c445c585fa78b2a1a05ef6a1fa79b69793292ecc768deec951bae4114df32"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/66",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "940002ab651dd0fc2a8e3cf0b40730b8edd0e9c8c8b05c72cbefee6ebcc4b1f7"
+            },
+            "trov:mimeType": "image/svg+xml"
+          },
+          {
+            "@id": "composition/1/artifact/67",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ae2be6d4a44e896027262fb185739fd743e92ddaaee344bd3c9e046ff3255fac"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/68",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "967e40af610c70d58c6c2bca850512d79de2a031749b277f23f907e242e7571a"
+            },
+            "trov:mimeType": "application/octet-stream"
+          },
+          {
+            "@id": "composition/1/artifact/69",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "9901a12b3bd5d5c32dae76a71fce3a6be5b571fee9fcbbd663311ec9898ccefe"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/70",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "43a110011c9287e2d766b9fe52bbaeecf46d7488089846def1c0ea12474a654d"
+            },
+            "trov:mimeType": "text/html"
+          },
+          {
+            "@id": "composition/1/artifact/71",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "52144cf4c349f7f2cf131342f81bbc43c6514ba2274556815df88918fdeb189b"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/72",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "d136dae7fb7c200c1225536bb669a066a5d47530581cf017b7bacc1bbef3b724"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/73",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "dbae648a18f2ca2a5c4674a71e00241ba0cbcd083c9c2ba3b8441b29875bc471"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/74",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "207900389333319f43efcd4504e38234edc20b001397f483b9affc001f340806"
+            },
+            "trov:mimeType": "application/x-xz"
+          },
+          {
+            "@id": "composition/1/artifact/75",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "5b3e1ae9f6b07d78efcdaf8d5098e2ab38a6eefcb69f59899869ce5dbc6d4b1b"
+            },
+            "trov:mimeType": "application/gzip"
+          },
+          {
+            "@id": "composition/1/artifact/76",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0cfed0a8c6c9cbb84362d18742b2635689a595199f85a66055bfe18626e29fb4"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/77",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0b8c29380b1e6d007303c35b8ad923127161086477f11bf624aa3d9cc54d5fb9"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/78",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ccf047086bf8468e642d804f5fc43e898226f68616530e4c916ae9d0086bc112"
+            },
+            "trov:mimeType": "text/x-msdos-batch"
+          },
+          {
+            "@id": "composition/1/artifact/79",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "840c4d803928d967a2d6c7e35456effadb6c111575b958502c39dc6b44e4e969"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/80",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "f87655640202b2fdb1cb7a970dce9ccd82da9c6520e98716c958bcaa7d468b9a"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/81",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+            },
+            "trov:mimeType": "inode/x-empty"
+          },
+          {
+            "@id": "composition/1/artifact/82",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "0cff23f0769f0ae3414fe3a967ff9bec1e6566d54e1ef04ef1121ea27f562686"
+            },
+            "trov:mimeType": "text/plain"
+          },
+          {
+            "@id": "composition/1/artifact/83",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "9ff91df03a6ff749ee232e9a04dcf6dc61d7eeeeebf8202690c193bed1c7472e"
+            },
+            "trov:mimeType": "application/pdf"
+          },
+          {
+            "@id": "composition/1/artifact/84",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "802d052d29dc1d03384b61f1603ffde0f23b3bab3d087c6a5cbcc8beffd28f99"
+            },
+            "trov:mimeType": "text/csv"
+          },
+          {
+            "@id": "composition/1/artifact/85",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "ee5f677ca7581e6b4e56a3c4b80f7aa2a07c1d29b36ad49df9b96f5cb4dbbd5b"
+            },
+            "trov:mimeType": "text/x-tex"
+          },
+          {
+            "@id": "composition/1/artifact/86",
+            "@type": "trov:ResearchArtifact",
+            "trov:hash": {
+              "trov:hashAlgorithm": "sha256",
+              "trov:hashValue": "46e4fcd2276d35ad465270d47b0b826952f1166e4012fc7fabe46304fd3cc098"
+            },
+            "trov:mimeType": "text/x-tex"
+          }
+        ],
+        "trov:hasFingerprint": {
+          "@id": "fingerprint",
+          "@type": "trov:CompositionFingerprint",
+          "trov:hash": {
+            "trov:hashAlgorithm": "sha256",
+            "trov:hashValue": "677292fbb37c45465640ac8ff486e7e3366780e6bfb1b655de576bf45c61fd02"
+          }
+        }
+      },
+      "trov:hasPerformance": [
+        {
+          "@id": "trp/0",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR workflow execution (main.R) step 1",
+          "sivacor:Architecture": "x86_64",
+          "sivacor:CPUSecondsTotal": 92.209,
+          "sivacor:DockerRunArgs": "{\"image\": \"rocker/r-ver:4.3.1\", \"entrypoint\": [\"/usr/local/bin/R\", \"--no-save\", \"--no-restore\", \"-f\"], \"command\": \"main.R\", \"detach\": true, \"mounts\": [{\"Target\": \"/workspace\", \"Source\": \"/home/ubuntu/volumes/tmp/workspace-6ae2648ea965216067f379a4\", \"Type\": \"bind\", \"ReadOnly\": false}, {\"Target\": \"/tmp\", \"Source\": \"/home/ubuntu/volumes/tmp/tmp-6ae2648ea965216067f379a4\", \"Type\": \"bind\", \"ReadOnly\": false}], \"network_disabled\": false, \"read_only\": true, \"working_dir\": \"/workspace/project/sivacor-test-r-sivacorignore-main\", \"user\": \"1000:1000\", \"environment\": {\"TMPDIR\": \"/tmp\", \"TEMP\": \"/tmp\", \"TMP\": \"/tmp\", \"HOME\": \"/workspace\", \"R_LIBS\": \"/workspace/R/library\", \"R_LIBS_USER\": \"/workspace/R/library\", \"MLM_LICENSE_FILE\": \"27007@rtlicense1.uits.indiana.edu\"}, \"labels\": {\"org.sivacor.worker_queue\": \"sivacor.6a6777f1-454b-4593-9531-fd165e57cbf5\", \"org.sivacor.job_id\": \"6ae26174a965216067f37986\"}, \"mem_limit\": 29382402048, \"memswap_limit\": 29382402048}",
+          "sivacor:FinishedAt": "2026-10-28T21:10:32.700662234Z",
+          "sivacor:ImageRepoDigests": [
+            "rocker/r-ver@sha256:bbb32869133890d2ae65305ae577a86d0ee48b2dd769961ef198aef09eb7bbb6"
+          ],
+          "sivacor:ImageRepoTags": [
+            "rocker/r-ver:4.3.1"
+          ],
+          "sivacor:ImageSize": 332770776,
+          "sivacor:KernelVersion": "7.0.0-42-generic",
+          "sivacor:MaxCPUPercent": 511.86,
+          "sivacor:MaxDiskUsage": 74473472,
+          "sivacor:MaxMemoryUsage": 310915072,
+          "sivacor:MemTotal": 31529885696,
+          "sivacor:NCPU": 8,
+          "sivacor:OSType": "linux",
+          "sivacor:OSVersion": "24.04",
+          "sivacor:OperatingSystem": "Ubuntu 24.04.5 LTS",
+          "sivacor:Processor": "AMD EPYC-Milan Processor",
+          "sivacor:RequestedDiskGB": null,
+          "sivacor:RequestedMemoryGB": 30,
+          "sivacor:StartedAt": "2026-10-28T21:09:51.363822974Z",
+          "sivacor:WorkspaceDiskTotal": 61285326848,
+          "trov:accessedArrangement": {
+            "@id": "trp/0/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/0"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/0/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/1"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-10-28T21:10:34.193607+00:00",
+          "trov:hasPerformanceAttribute": [
+            {
+              "@id": "trp/0/attribute/0",
+              "@type": "trov:EnvironmentIsolation",
+              "trov:warrantedBy": {
+                "@id": "trov:CanIsolateEnvironment"
+              }
+            },
+            {
+              "@id": "trp/0/attribute/1",
+              "@type": "trov:NonInteractiveExecution",
+              "trov:warrantedBy": {
+                "@id": "trov:CanPreventAuthorIntervention"
+              }
+            },
+            {
+              "@id": "trp/0/attribute/2",
+              "@type": "trov:CapabilitiesTechnicallyEnforced",
+              "trov:warrantedBy": {
+                "@id": "trov:CanEnforceCapabilitiesTechnically"
+              }
+            }
+          ],
+          "trov:startedAtTime": "2026-10-28T21:09:48.952052+00:00",
+          "trov:wasConductedBy": {
+            "@id": "https://sivacor.org/"
+          }
+        },
+        {
+          "@id": "trp/1",
+          "@type": "trov:TrustedResearchPerformance",
+          "rdfs:comment": "SIVACOR Workspace pruning step",
+          "trov:accessedArrangement": {
+            "@id": "trp/1/binding/0",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/1"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:contributedToArrangement": {
+            "@id": "trp/1/binding/1",
+            "@type": "trov:ArrangementBinding",
+            "trov:arrangement": {
+              "@id": "arrangement/2"
+            },
+            "trov:boundTo": "/workspace"
+          },
+          "trov:endedAtTime": "2026-10-28T21:10:35.116346+00:00",
+          "trov:hasPerformanceAttribute": [],
+          "trov:startedAtTime": "2026-10-28T21:10:35.100373+00:00",
+          "trov:wasConductedBy": {
+            "@id": "https://sivacor.org/"
+          }
+        }
+      ],
+      "trov:vocabularyVersion": "0.1",
+      "trov:wasAssembledBy": {
+        "@id": "https://sivacor.org/",
+        "@type": [
+          "trov:TrustedResearchSystem",
+          "schema:Organization"
+        ],
+        "rdfs:comment": "SIVACOR TRO profile",
+        "schema:description": "SIVACOR AEA Infrastructure",
+        "schema:email": "admin@sivacor.org",
+        "schema:name": "sivacor",
+        "schema:owner": {
+          "@type": "schema:Organization",
+          "schema:name": "SIVACOR Team"
+        },
+        "schema:url": "https://sivacor.org/",
+        "sivacor:stackVersion": "0.4.1",
+        "trov:hasCapability": [
+          {
+            "@id": "trov:CanIsolateEnvironment",
+            "@type": "trov:CanIsolateEnvironment"
+          },
+          {
+            "@id": "trov:CanProvideInternetIsolation",
+            "@type": "trov:CanProvideInternetIsolation"
+          },
+          {
+            "@id": "trov:CanPreventAuthorIntervention",
+            "@type": "trov:CanPreventAuthorIntervention"
+          },
+          {
+            "@id": "trov:CanEnforceCapabilitiesTechnically",
+            "@type": "trov:CanEnforceCapabilitiesTechnically"
+          }
+        ],
+        "trov:publicKey": "-----BEGIN PGP PUBLIC KEY BLOCK-----\n\nmDMEaRZowxYJKwYBBAHaRw8BAQdAZE3O+GSW5cJRjptdb8N7UW6jI7l6URVid7Qy\nsO4TTMO0IVNJVkFDT1IgVFJTIDxlZGl0b3JzQHNpdmFjb3Iub3JnPoiTBBMWCgA7\nFiEE99tIU58getRhLcQI2LsgcYYq/0oFAmkWaMMCGwMFCwkIBwICIgIGFQoJCAsC\nBBYCAwECHgcCF4AACgkQ2LsgcYYq/0roKAEAzcHiTUWZPf7IrTct0Zc9wV6C6pIi\nJz5s6EvopXMbiA4A/06xb/as9R479KXUtS7GmuIe5A1cKn6IHnu0gt1v9CUJtCFB\nZG1pbiBTSVZBQ09SIDxhZG1pbkBzaXZhY29yLm9yZz6IkwQTFgoAOxYhBPfbSFOf\nIHrUYS3ECNi7IHGGKv9KBQJpfQJHAhsDBQsJCAcCAiICBhUKCQgLAgQWAgMBAh4H\nAheAAAoJENi7IHGGKv9KnDcBAMAw+4jrpQGsbaJrgs/2MO/Q2TYTH2Rlsh9WVT1l\nLlYYAP0W+WkIs+J0VnuEXCrLcc6rc9iQUiBKb7lWqTaaECk1Bbg4BGkWaMMSCisG\nAQQBl1UBBQEBB0BoHfFiGW3Stl+JnlWswb3vpXuiEVAmWUst/dTIbk9NEgMBCAeI\neAQYFgoAIBYhBPfbSFOfIHrUYS3ECNi7IHGGKv9KBQJpFmjDAhsMAAoJENi7IHGG\nKv9Kmu0BAOcqj2DerJgZH7126goV0tXBqncbG5MPuzufGmdjYJ07AQCJAX/uj9X/\nv+YHdwl32ozy/kKWYaqlbrODQUbgSu0xBA==\n=iFZz\n-----END PGP PUBLIC KEY BLOCK-----\n"
+      }
+    }
+  ]
+}
