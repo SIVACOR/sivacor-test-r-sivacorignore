@@ -22,6 +22,9 @@ renv::snapshot()
 
 library(dplyr)
 
+# All output goes to results/
+dir.create("results", showWarnings = FALSE)
+
 # Load the penguins dataset from the raw data directory
 # (data/raw/ is removed from the package by .sivacorignore)
 penguins <- read.csv("data/raw/penguins.csv", stringsAsFactors = TRUE)
@@ -29,7 +32,7 @@ penguins <- read.csv("data/raw/penguins.csv", stringsAsFactors = TRUE)
 # Remove rows with missing values, keep an intermediate copy
 # (*.tmp files are removed from the package by .sivacorignore)
 penguins_clean <- na.omit(penguins)
-write.csv(penguins_clean, "penguins_clean.tmp", row.names = FALSE)
+write.csv(penguins_clean, "results/penguins_clean.tmp", row.names = FALSE)
 
 # Descriptive statistics
 summary_stats <- penguins_clean %>%
@@ -61,11 +64,11 @@ print(grouped_stats)
 
 # Output summary_stats as LaTeX table
 summary_stats_latex <- knitr::kable(summary_stats, format = "latex", caption = "Descriptive statistics for penguins dataset")
-cat(summary_stats_latex, file = "penguins_summary_table.tex")
+cat(summary_stats_latex, file = "results/penguins_summary_table.tex")
 
 # Output grouped_stats as LaTeX table
 grouped_stats_latex <- knitr::kable(grouped_stats, format = "latex", caption = "Grouped statistics by species")
-cat(grouped_stats_latex, file = "penguins_grouped_table.tex")
+cat(grouped_stats_latex, file = "results/penguins_grouped_table.tex")
 
 # Create and save a histogram of bill length
 if (!requireNamespace("ggplot2", quietly = TRUE)) {
@@ -75,7 +78,7 @@ library(ggplot2)
 hist_plot <- ggplot(penguins_clean, aes(x = bill_length_mm)) +
   geom_histogram(binwidth = 2, fill = "skyblue", color = "black") +
   labs(title = "Histogram of Bill Length (mm)", x = "Bill Length (mm)", y = "Count")
-ggsave("penguins_bill_length_histogram.pdf", plot = hist_plot)
+ggsave("results/penguins_bill_length_histogram.pdf", plot = hist_plot)
 
 # ============================================================
 system("chmod +x linux-system-info.sh")
