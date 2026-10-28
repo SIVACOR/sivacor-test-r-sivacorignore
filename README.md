@@ -11,7 +11,7 @@ After the run, [`.sivacorignore`](.sivacorignore) removes
 -  `data/raw/` (which includes the original penguin data)
 - all `*.tmp` files which might still contain penguin data.
 
-The picture of the confidential penguins is stored in `data/raw/` as well, so it is removed along with the data, without needing an additional line in `.sivacorignore`.
+Because the penguins are "confidential", we also need to remove the above picture of the "confidential penguins"! Since it is  stored in `data/raw/`, `.sivacorignore` removes it.
 
 ## Steps
 
@@ -39,6 +39,8 @@ results/
 ```
 
 Note that `data/raw/` (data and picture) and `results/penguins_clean.tmp` are gone.
+
+The output of a reference run is on the [`reference-output`](https://github.com/SIVACOR/sivacor-test-r-sivacorignore/tree/reference-output) branch.
 
 ## Credits
 
