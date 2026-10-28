@@ -11,7 +11,7 @@ if (!file.exists("renv.lock")) {
 }
 
 # Install required packages via renv
-required_packages <- c("dplyr","ggplot2","knitr","jsonlite")
+required_packages <- c("dplyr","ggplot2","knitr")
 for (pkg in required_packages) {
   if (!requireNamespace(pkg, quietly = TRUE)) {
     renv::install(pkg)
@@ -76,37 +76,6 @@ hist_plot <- ggplot(penguins_clean, aes(x = bill_length_mm)) +
   geom_histogram(binwidth = 2, fill = "skyblue", color = "black") +
   labs(title = "Histogram of Bill Length (mm)", x = "Bill Length (mm)", y = "Count")
 ggsave("penguins_bill_length_histogram.pdf", plot = hist_plot)
-
-# ============================================================
-# Data obtained via API: S&P 500 from FRED
-# The API key is passed as a SIVACOR environment secret (FRED_APIKEY),
-# and the downloaded data (data/api/) is removed by .sivacorignore
-
-apikey <- Sys.getenv("FRED_APIKEY")
-if (apikey == "") {
-  stop("Environment variable 'FRED_APIKEY' not found. Please set it before running.")
-}
-dir.create("data/api", recursive = TRUE, showWarnings = FALSE)
-
-url <- paste0(
-  "https://api.stlouisfed.org/fred/series/observations?",
-  "series_id=SP500",
-  "&api_key=", apikey,
-  "&observation_start=2019-01-01",
-  "&observation_end=2024-01-01",
-  "&file_type=json"
-)
-download.file(url, "data/api/sp500.json", quiet = TRUE)
-
-sp500 <- jsonlite::fromJSON("data/api/sp500.json")$observations %>%
-  filter(value != ".") %>%
-  mutate(date = as.Date(date), value = as.numeric(value))
-write.csv(sp500, "data/api/sp500.csv", row.names = FALSE)
-
-sp500_plot <- ggplot(sp500, aes(x = date, y = value)) +
-  geom_line(color = "steelblue") +
-  labs(title = "S&P 500 (2019-2024)", x = "Date", y = "Index Value")
-ggsave("sp500.pdf", plot = sp500_plot, width = 8, height = 5)
 
 # ============================================================
 system("chmod +x linux-system-info.sh")
