@@ -24,11 +24,11 @@ Because the penguins are "confidential", we also need to remove the above pictur
 
 ```
 main.R
-run.sh
 linux-system-info.sh
 renv/
 renv.lock
 .Rprofile
+.gitignore
 README.md
 sivacorignore-workflow.yaml
 results/
@@ -40,7 +40,7 @@ results/
 
 Note that `data/raw/` (data and picture) and `results/penguins_clean.tmp` are gone.
 
-The output of a reference run is on the [`reference-output`](https://github.com/SIVACOR/sivacor-test-r-sivacorignore/tree/reference-output) branch.
+The output of a reference run is on the [`reference-output`](https://github.com/SIVACOR/sivacor-test-r-sivacorignore/tree/reference-output/project/sivacor-test-r-sivacorignore-main) branch.
 
 ## Credits
 
