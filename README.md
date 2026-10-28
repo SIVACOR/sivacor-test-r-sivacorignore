@@ -21,13 +21,21 @@ After the run, [`.sivacorignore`](.sivacorignore) removes
 ## Expected output
 
 ```
-code/
-  main.R
-output/
-  figure.png
-  ...
+main.R
+run.sh
+linux-system-info.sh
+renv/
+renv.lock
+.Rprofile
+README.md
+sivacorignore-workflow.yaml
+penguins_summary_table.tex
+penguins_grouped_table.tex
+penguins_bill_length_histogram.pdf
 .sivacorignore
 ```
+
+Note that `data/raw/`, `penguins_clean.tmp`, and `images/` are gone.
 
 ## Credits
 
